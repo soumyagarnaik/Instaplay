@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    color: #ffffff;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+.page{
+    margin: 1rem;
+    font-size:1rem;
+    cursor:pointer;
+    font-weight: 200;
+}

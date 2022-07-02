@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+.body{
+    background: #263F61;
+    height: 4rem;
+    padding: 0.5rem 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.title{
+    font-family: 'Big John PRO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: white;
+}
+
+.inputContainer{
+    box-sizing: border-box;
+    width: 28rem;
+    position: relative;
+}
+
+.input{
+    padding: 1rem;
+    width: 80%;
+    height: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    top: -18px;
+    background: #333b6a;
+    color: #ffffff;
+}
+
+.input::placeholder{
+    color: #ffffff;
+    font-family:'Poppins';
+}
+
+.searchBox{
+    width: 3rem;
+    padding: 1rem;
+    background: linear-gradient(180deg, #FF9966 0%, #FF5E62 100%);
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: -18px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 760px){
+    .body{
+        background: #263F61;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start;
+    }
+    
+    .title{
+        font-family: 'Big John PRO';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 45px;
+        color: white;
+    }
+    
+    .inputContainer{
+        box-sizing: border-box;
+        width: 300px;
+        position: relative;
+    }
+    
+    .input{
+        padding: 7px;
+        width: 80%;
+        border: 1px solid rgba(255, 255, 255, 0.26);
+        border-radius: 5px;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        top: -18px;
+        background: #333b6a;
+        color: #ffffff;
+    }
+    
+    .input::placeholder{
+        color: #ffffff;
+        font-family:'Poppins';
+    }
+    
+    .searchBox{
+        width: 2rem;
+        padding: 7px;
+        background: linear-gradient(180deg, #FF9966 0%, #FF5E62 100%);
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        position: absolute;
+        right: 40px;
+        top: -18px;
+        cursor: pointer;
+    }
+}

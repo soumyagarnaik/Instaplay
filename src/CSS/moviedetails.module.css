@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+    width: auto;
+    height: 85vh;
+    width: 100vw;
+}
+.poster{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
+
+
+.descriptionContainer{
+    width: 35%;
+    padding: 2rem;
+    color:#ffffff;
+}
+
+.text{
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 760px){
+    .container{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .poster{
+        height: 20rem;
+        width: auto;
+        background-position: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+    .descriptionContainer{
+        color:#ffffff;
+        width: inherit;
+        position: absolute;
+        padding: 10px;
+        top: 20rem;
+        left: 0;
+        background-color: #0c111b;
+    }
+    
+}

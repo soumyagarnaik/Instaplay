@@ -1,0 +1,48 @@
+.cardConatiner{
+    height: 13rem;
+    background-color: aliceblue;
+    width: 17rem;
+    margin: 10px 5px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.titleContainer{
+    height: 5rem;
+    width: 100%;
+    background-color: #224066;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: antiquewhite;
+}
+
+.leftSide{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title{
+    font-size: 18px;
+    margin: 0 0 3px 0;
+}
+
+.rating{
+    color:#B3B3B3;
+    font-size: 12px;
+    margin: 3px 0 0 0;
+}
+
+.playButton{
+    color:#FE6862;
+    font-size:2.5rem;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}

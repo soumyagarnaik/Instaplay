@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main{
+  min-height: 80vh;
+  min-width: 100vw;
+}
+
+@media only screen and (max-width: 760px){
+  *{
+    width: auto;
+  }
+}

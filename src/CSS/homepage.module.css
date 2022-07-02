@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+.container{
+    position: relative;
+}
+.poster{
+    background-image: url("https://staticg.sportskeeda.com/editor/2022/05/83a33-16533412171680-1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+
+.movieContainer{
+    background-color: #0C111B;
+    min-height: 50rem;
+    padding: 2rem 3rem;
+}
+
+.title{
+    color: #ffffff;
+    font-family:'Poppins';
+}
+
+.movieDashboard{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap
+}
+
+.pagination{
+    background-color: #0C111B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 760px){
+    .poster{
+        height: 15rem;
+    }
+}
